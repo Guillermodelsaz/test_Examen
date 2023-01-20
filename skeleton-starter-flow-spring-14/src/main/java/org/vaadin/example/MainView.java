@@ -100,7 +100,7 @@ public class MainView extends VerticalLayout {
         TextField nombre = new TextField("Nombre");
         TextField categoria = new TextField("Categoría");
         TextField precio = new TextField("Precio");
-        TextField ean13 = new TextField("EAN13");
+     
 
         Button submit = new Button("Submit");
 
@@ -109,13 +109,13 @@ public class MainView extends VerticalLayout {
             String nombreValue = nombre.getValue();
             String categoriaValue = categoria.getValue();
             String precioValue = precio.getValue();
-            String ean13Value = ean13.getValue();
+           
             // Do something with the values
             // for example, print them
             System.out.println("Nombre: " + nombreValue);
             System.out.println("Categoría: " + categoriaValue);
             System.out.println("Precio: " + precioValue);
-            System.out.println("EAN13: " + ean13Value);
+            
         });
 
 
